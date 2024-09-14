@@ -18,7 +18,7 @@ jobs:
 
           # The publicly available endpoint hosting the bridge application
           # where notification entities (eg. workflows, topics) are defined.
-          # Required.
+          # Required.:already configured  
           bridge-url: ${{ secrets.NOVU_BRIDGE_URL }}
 
           # The Novu Cloud API URL to sync with.
